@@ -1,0 +1,90 @@
+* {
+    /* border: 1px solid black; */
+    text-decoration: none;
+    background-color: rgb(235, 235, 235);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(18, 0, 97);
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+img {
+    width: 500px;
+}
+
+label,
+input {
+    display: block;
+    padding: 5px;
+}
+
+.review {
+    margin-top: 100px;
+    display: flex;
+}
+
+.review-img {
+    width: 500px;
+}
+
+.review-text {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#logo {
+    width: 30px;
+    vertical-align: middle;
+}
+
+#banner {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 15vh;
+    width: 90vw;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#message-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#message-content {
+    width: 500px;
+    height: 200px;
+}
+
+#sumbit-message {
+    position: absolute;
+    bottom: 0;
+}
